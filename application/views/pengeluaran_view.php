@@ -77,15 +77,15 @@
 													</td>
 
 													<td class="center">
-														<?php echo $data['harga']?>
+														<?php echo(number_format($data['harga'],0,'.',',')) ?>
 													</td>
 
 													<td class="center">
-														<?php echo $data['jml_barang']?>
+														<?php echo(number_format($data['jml_barang'],0,'.',',')) ?>
 													</td>
 													
 													<td class="center">
-														<?php echo $data['total']?>
+														<?php echo(number_format($data['total'],0,'.',',')) ?>
 													</td>
 													<td class="center">
 														<a class="btn btn-info" href="<?php echo base_url(); ?>index.php/pengeluaran/edit_view/<?php echo $data['id']; ?>">

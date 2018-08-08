@@ -14,7 +14,7 @@
 				<a href="<?php echo base_url();?>index.php/buyer/detail/<?php echo $data['id']; ?>">
 	    		<div class="produ-cost">
 	    			<h4><?php echo $data['nama_barang']?><h4>
-	    			<h5><?php echo $data['harga']?></h5>
+	    			<h5><?php echo(number_format($data['harga'],0,'.',',')) ?></h5>
 	    		</div>
 	    	</a>
     		</div>

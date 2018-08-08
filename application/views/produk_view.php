@@ -102,11 +102,11 @@
 													</td>
 
 													<td class="center">
-														<?php echo $data['harga']?>
+														<?php echo(number_format($data['harga'],0,'.',',')) ?>
 													</td>
 													
 													<td class="center">
-														<?php echo $data['stok']?>
+														<?php echo(number_format($data['stok'],0,'.',',')) ?>
 													</td>
 													<td class="center">
 														<?php echo $data['detail']?>

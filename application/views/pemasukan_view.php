@@ -76,15 +76,15 @@
 													</td>
 
 													<td class="center">
-														<?php echo $data['harga']?>
+														<?php echo(number_format($data['harga'],0,'.',',')) ?>
 													</td>
 
 													<td class="center">
-														<?php echo $data['jml_brg']?>
+														<?php echo(number_format($data['jml_brg'],0,'.',',')) ?>
 													</td>
 													
 													<td class="center">
-														<?php echo $data['total']?>
+														<?php echo(number_format($data['total'],0,'.',',')) ?>
 													</td>
 													<td class="center">
 														<?php echo $data['nama_pembeli']?>

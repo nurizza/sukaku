@@ -15,10 +15,10 @@
 							Detail : <?php echo $produk[0]['detail'] ?>
 							</p>
 							<p>
-							Stok : <?php echo $produk[0]['stok'] ?>
+							Stok : <?php echo(number_format($produk[0]['stok'],0,'.',',')) ?>
 							</p>
 							<p>
-							Harga : <?php echo $produk[0]['harga'] ?>
+							Harga : <?php echo(number_format($produk[0]['harga'],0,'.',',')) ?>
 							</p>
 						</div>
 
